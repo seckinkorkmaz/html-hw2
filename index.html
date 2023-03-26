@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seckin Korkmaz</title>
+</head>
+<body backgroundcolor="white">
+
+    <h1>Seckin Korkmaz</h1>
+        <h2>Hakkımda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quibusdam.</p>
+            <h3>Hobilerim</h3>
+                <p>Müzik dinlemek, dans etmek, basketbol, satranç oynamak, dil ögrenmek ve programlama </p> <br>
+
+
+
+
+
+
+<!-- lorem picsumdan resim ekliyoruz kendi bilgisayarımızdan da source bölümüne image ekleyebiliriz tabi bu img proje klasörü içinde olmalı-->
+ 
+    <img src="https://picsum.photos/200/260" alt="rastgele resim" title="lorem picsumdan sayfanıza resim ekleyebilirsiniz"><br><br>
+
+                <h4>En sevdiğim sanatçı</h4>
+
+                <a href="https://en.wikipedia.org/wiki/List_of_songs_recorded_by_Dua_Lipa" target="_blank" rel="noopener noreferrer">
+
+                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/DuaLipaO2020522_%2861_of_110%29_%2852051423142%29_%28cropped%29.jpg/330px-DuaLipaO2020522_%2861_of_110%29_%2852051423142%29_%28cropped%29.jpg" alt="dualipa with pink dress" height="250px" title="blgi için resme tıklayınız">
+                </a><br><br>
+            
+
+
+
+
+
+
+   <fieldset>
+        <h2>Maping çalışması</h2>
+        <div>
+            <details>
+                <p>transformers kahramanını seç</p>
+
+                <!-- 
+                1 imgyi painte aldıktan sonra resize ettim
+                2 sonra sayfada kullanacağım size'ı img etiketinde  width ve height olarak yazdım  ""burada ek olarak usemap etiket atamak önemli ve ıd(#) kullanmalıyız""sonrasında bunu map name e yazacağız 
+                3 sonra mapin içine area shape poly ekleyip coords giriyoruz daha sonra coords için her noktayı x ve y olarak paintten görüntülüyerek yazdım  -->
+
+                <img src="trnsformers.jpg" alt="megatron  and bumbelbee" usemap="#transformers" width="300" height="230">
+
+                <map name="transformers">
+                    <area shape="poly" coords="111,57,26,81,32,135,1,157,22,191,126,228,134,201,123,109" href="https://www.youtube.com/watch?v=qMWOSdd8lIc&ab_channel=EntertainmentAccess" alt="bumbellbe video">
+                
+                    <area shape="poly" coords="211,13,116,21,129,111,144,148,148,181,138,199,138,220,223,213,274,278,300,97,297,64,288,51,250,51" href="https://www.youtube.com/watch?v=KSuJMxvz2o0&ab_channel=StathIsOptimus" alt="megatron video">
+                
+                </map>
+            </details> 
+        </div>
+    </fieldset>
+   <br>
+
+
+
+
+   <!-- ol>(li>lorem1^ul>li*4>lorem2)*3 kodu emmetle oluşturup daha sonra içeriği düzenledim-->
+   <ol>
+        <li>Film</li>
+            <ul style="list-style-type: disc;">
+                <li><a href="https://www.imdb.com/title/tt0242653/" target="_blank" rel="noopener noreferrer">Matrix</a></li>
+                <li><a href="https://www.imdb.com/title/tt1375666/?ref_=nv_sr_srsg_0" target="_blank" rel="noopener noreferrer">inception</a></li>
+                <li>Nemo, nam.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+        <li>Dizi</li>
+            <ul style="list-style-type: square;">
+                <li><a href="https://www.imdb.com/title/tt2306299/" target="_blank" rel="noopener noreferrer">Vikings</a> </li>
+                <li>Sherlock</li>
+                <li>Black Mirror</li>
+                <li>La Casa de Papel</li>
+            </ul>
+        <li>Kitap</li>
+            <ul style="list-style-type: disc;">
+                <li><a href="https://www.amazon.com.tr/Sokratesin-Savunmas%C4%B1-Karton-Kapak-Platon/dp/6053607029" target="_blank" rel="noopener noreferrer">Sokratesin-Savunması</a></li>
+                <li> <a href="https://www.goodreads.com/book/show/57555746-su-ve-ceza" target="_blank" rel="noopener noreferrer">Suç ve ceza</a></li>
+                <li>Dolorem, voluptatum!</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+   </ol>
+    
+</body>
+</html>
